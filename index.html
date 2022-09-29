@@ -1,13 +1,26 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aldy Rahman - Final Project</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        #home-container {
+            background: url(assets/background.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+        }
+    </style>
+
 </head>
+
 <body>
-    <nav class="bg-white fixed w-full flex justify-between 2xl:h-16 2xl:items-center">
+
+    <!-- Navbar -->
+    <nav class="bg-white bg-transparent fixed w-full flex justify-between 2xl:h-16 2xl:items-center">
         <div class="ml-10 flex items-center 2xl:ml-20">
             <h1 class="font-bold text-xl"><a href="#">Aldy Rahman</a></h1>
         </div>
@@ -31,8 +44,26 @@
         </div>
     </nav>
 
+    <!-- Header -->
+    <header id="home" class="h-2/3 lg:h-full">
+        <div id="home-container" class="text-black h-full flex flex-col items-center justify-center text-center">
+            <h1 class="text-2xl font-bold sm:text-3xl 2xl:text-7xl 2xl:pb-6">Hello, I am Aldy</h1>
+            <p class="text-base mx-8 sm:text-lg sm:mx-12 lg:mx-44 2xl:mx-96 2xl:text-xl">Graphic Designer | Frontend Engineer | Professional Dreamer</p>
+        </div>
+    </header>
+
+    <!-- Begin -->
+
+    <!-- bg-[#FAF2EF] -->
+
     <section id="begin">
-        <div class="bg-red-500 h-full"></div>
+        <div class="bg-red-500 h-full text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quaerat nulla numquam iusto, porro itaque
+                dicta magni facilis minima impedit obcaecati rem fugit, odit voluptatem asperiores accusantium quo totam
+                ad.</p>
+        </div>
     </section>
+
 </body>
+
 </html>
