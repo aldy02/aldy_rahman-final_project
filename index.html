@@ -24,7 +24,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="bg-[#FAF2EF] fixed w-full flex justify-between 2xl:h-16 2xl:items-center">
+    <nav class="bg-[#FAF2EF] fixed w-full flex justify-between 2xl:h-16 2xl:items-center z-10">
         <div class="ml-10 flex items-center 2xl:ml-20">
             <h1 class="font-bold text-lg sm:text-xl"><a href="#">Aldy Rahman</a></h1>
         </div>
@@ -41,7 +41,7 @@
         </div>
 
 
-        <div class="h-5 flex flex-col justify-between relative mr-8 my-4 2xl:hidden">
+        <div class="h-5 flex flex-col justify-between relative mr-8 my-4 sm:mr-10 2xl:hidden">
             <span class="w-7 h-1 block bg-black rounded-xl"></span>
             <span class="w-7 h-1 block bg-black rounded-xl"></span>
             <span class="w-7 h-1 block bg-black rounded-xl"></span>
@@ -49,7 +49,7 @@
     </nav>
 
     <!-- Header -->
-    <header id="home" class="h-[78%] lg:h-full">
+    <header id="home" class="h-[78%] sm:h-full">
         <div id="home-container" class="text-black h-full flex flex-col items-center justify-center text-center">
             <h1 class="text-[28px] font-bold sm:text-[38px] 2xl:text-7xl 2xl:pb-6">Hello, I am Aldy</h1>
             <p class="text-xs mx-8 sm:text-base sm:mx-[140px] sm:mt-2 lg:mx-44 2xl:mx-96 2xl:text-xl">Graphic Designer | Frontend
@@ -58,8 +58,6 @@
     </header>
 
     <!-- Motto -->
-    <!-- bg-[#FAF2EF] -->
-
     <section id="begin">
         <div class="bg-[#FAF2EF] h-1/2 sm:h-2/3 text flex flex-col items-center justify-center text-center py-40">
             <h1 class="text-lg font-bold italic text-[#172B75] sm:text-3xl 2xl:text-3xl">"You Can If You Think You Can!"
@@ -78,7 +76,7 @@
     <section id="about">
         <div class="bg-[#E35205] grid grid-cols-1 text-white">
             <div class="w-full flex justify-center">
-                <img class="w-[85%] sm:w-[80%] bg-white border-0 p-2 mt-10" src="assets/profile.png" alt="">
+                <img class="w-[85%] sm:w-[80%] bg-white border-0 p-2 mt-10 sm:mt-14" src="assets/profile.png" alt="Profile Photo">
             </div>
             <div class="ml-[7.5%] mr-10 sm:mx-[10%]">
                 <h1 class="font-bold text-xl mt-10 sm:text-[34px] sm:mb-4">Hi, I am</h1>
@@ -88,7 +86,7 @@
                     especially when it comes to something as important as your information. So, I thought you might want
                     to know a little bit about me.</p>
                 <br>
-                <p class="text-xs mb-14 sm:text-base">My name is Aldy and I’m a Computer Science Student at Lambung Mangkurat
+                <p class="text-xs mb-14 sm:mb-[60px] sm:text-base">My name is Aldy and I’m a Computer Science Student at Lambung Mangkurat
                     University who are
                     enthusiastic in Graphic Design. I work meticulously and always seek to improve myself. I have a good
                     sense of teamwork and enjoy meeting new people.</p>
@@ -98,31 +96,31 @@
 
     <!-- Interest -->
     <section id="interest">
-        <div class="bg-[#FAF2EF] pb-20">
-            <div class="pt-14 w-full flex flex-col items-center justify-center">
-                <h1 class="text-[#E35205] font-bold text-xl">My Interest</h1>
-                <hr class="bg-black w-6 mt-2 py-[1px]">
+        <div class="bg-[#FAF2EF] pb-20 sm:pb-[100px]">
+            <div class="pt-14 sm:pt-16 w-full flex flex-col items-center justify-center">
+                <h1 class="text-[#E35205] font-bold text-xl sm:text-3xl">My Interest</h1>
+                <hr class="bg-black w-6 sm:w-8 mt-2 sm:mt-5 py-[1px]">
             </div>
             <div class="gird grid-cols-1">
                 <div class="flex flex-col text-center justify-center items-center">
-                    <img class="w-10 my-3 mt-10" src="assets/drawing.png" alt="Drawing Icon">
-                    <h2 class="font-medium text-base">Drawing</h2>
-                    <p class="mx-10 mt-1 text-sm">Drawing helps me to express my imagination and feelings.</p>
+                    <img class="w-10 sm:w-14 my-3 mt-10 sm:mt-14" src="assets/drawing.png" alt="Drawing Icon">
+                    <h2 class="font-medium text-base sm:text-xl">Drawing</h2>
+                    <p class="mx-10 mt-1 text-sm sm:text-lg sm:mx-32">Drawing helps me to express my imagination and feelings.</p>
                 </div>
                 <div class="flex flex-col text-center justify-center items-center">
-                    <img class="w-10 my-3 mt-10" src="assets/reading.png" alt="">
-                    <h2 class="font-medium text-base">Reading</h2>
-                    <p class="mx-10 mt-1 text-sm">By reading allows me to experience multiple realities.</p>
+                    <img class="w-10 sm:w-14 my-3 mt-10 sm:mt-14" src="assets/reading.png" alt="">
+                    <h2 class="font-medium text-base sm:text-xl">Reading</h2>
+                    <p class="mx-10 mt-1 text-sm sm:text-lg sm:mx-32">By reading allows me to experience multiple realities.</p>
                 </div>
                 <div class="flex flex-col text-center justify-center items-center">
-                    <img class="w-10 my-3 mt-10" src="assets/music.png" alt="">
-                    <h2 class="font-medium text-base">Listening Music</h2>
-                    <p class="mx-10 mt-1 text-sm">Music makes me feel better and boosts my creativity.</p>
+                    <img class="w-10 sm:w-14 my-3 mt-10 sm:mt-14" src="assets/music.png" alt="">
+                    <h2 class="font-medium text-base sm:text-xl">Listening Music</h2>
+                    <p class="mx-10 mt-1 text-sm sm:text-lg sm:mx-32">Music makes me feel better and boosts my creativity.</p>
                 </div>
                 <div class="flex flex-col text-center justify-center items-center">
-                    <img class="w-10 my-3 mt-10" src="assets/game.png" alt="">
-                    <h2 class="font-medium text-base">Playing Games</h2>
-                    <p class="mx-10 mt-1 text-sm">Playing games can help me to unwind and reduce my stress.</p>
+                    <img class="w-10 sm:w-14 my-3 mt-10 sm:mt-14" src="assets/game.png" alt="">
+                    <h2 class="font-medium text-base sm:text-xl">Playing Games</h2>
+                    <p class="mx-10 mt-1 text-sm sm:text-lg sm:mx-32">Playing games can help me to unwind and reduce my stress.</p>
                 </div>
             </div>
         </div>
@@ -132,18 +130,18 @@
     <section id="portfolio">
         <div class="bg-[#172B75] text-white grid grid-cols-1">
             <div class="w-full flex justify-center">
-                <img class="w-[88%] my-10" src="assets/current-project.png" alt="">
+                <img class="w-[88%] my-10 sm:mt-14" src="assets/current-project.png" alt="">
             </div>
             <div class="mx-[7%] pb-14">
-                <h2 class="font-bold text-xs text-[#E49D74] mb-3">CURRENT PROJECT</h2>
-                <h1 class="font-bold text-2xl">Vector Art</h1>
+                <h2 class="font-bold text-xs text-[#E49D74] mb-3 sm:text-base">CURRENT PROJECT</h2>
+                <h1 class="font-bold text-2xl sm:text-4xl">Vector Art</h1>
                 <hr class="bg-[#D3EAEF] w-6 my-5 py-[1px]">
-                <p class="text-xs pb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto numquam
+                <p class="text-xs pb-6 sm:text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto numquam
                     voluptatem reprehenderit
                     excepturi consequuntur ad velit, aspernatur non ipsam eaque vero earum ab aut nisi dolorum
                     cupiditate
                     enim mollitia nihil.</p>
-                <a class="font-bold text-xs text-[#E49D74]" href="#portfolio2">Next</a>
+                <a class="font-bold text-xs sm:text-base text-[#E49D74]" href="#portfolio2">Next</a>
             </div>
         </div>
     </section>
@@ -151,17 +149,15 @@
     <!-- Portfolio2 -->
     <section id="portfolio2">
         <div class="bg-[#FAF2EF] pb-20">
-            <div class="flex flex-col items-center pt-[74px] mb-8">
-                <h1 class="text-[#E35205] font-bold text-xl">Portfolio Project</h1>
-                <hr class="bg-black w-6 mt-2 py-[1px]">
+            <div class="flex flex-col items-center pt-[74px] sm:pt-[116px] mb-8 sm:mb-[58px]">
+                <h1 class="text-[#E35205] font-bold text-xl sm:text-3xl">Portfolio Project</h1>
+                <hr class="bg-black w-6 sm:w-8 mt-2 sm:mt-5 py-[1px]">
             </div>
-            <div class="grid grid-cols-1 gap-3 mx-3">
+            <div class="grid grid-cols-1 gap-3 sm:gap-5 mx-3 sm:mx-5">
                 <!-- Art1 -->
                 <div class="relative text-white">
-                    <img class="block md:w-full" src="assets/art1.jpg" alt="Art1 Photo">
-                    <div id="overlay"
-                        class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                        <!--             transition: transform 0.25s; -->
+                    <img class="block" src="assets/art1.jpg" alt="Art1 Photo">
+                    <div id="overlay" class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <div class="translate-y-5 transition-transform duration-[250ms]">
                             <h1>LOGO</h1>
                         </div>
@@ -171,7 +167,7 @@
 
                 <!-- Art2 -->
                 <div class="relative text-white">
-                    <img class="block md:w-full" src="assets/art2.jpg" alt="Art2 Photo">
+                    <img class="block" src="assets/art2.jpg" alt="Art2 Photo">
                     <div id="overlay"
                         class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <!--             transition: transform 0.25s; -->
@@ -184,7 +180,7 @@
 
                 <!-- Art3 -->
                 <div class="relative text-white">
-                    <img class="block md:w-full" src="assets/art3.jpg" alt="Art3 Photo">
+                    <img class="block" src="assets/art3.jpg" alt="Art3 Photo">
                     <div id="overlay"
                         class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <!--             transition: transform 0.25s; -->
@@ -197,7 +193,7 @@
 
                 <!-- Art4 -->
                 <div class="relative text-white">
-                    <img class="block md:w-full" src="assets/art4.png" alt="Art4 Photo">
+                    <img class="block" src="assets/art4.png" alt="Art4 Photo">
                     <div id="overlay"
                         class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <!--             transition: transform 0.25s; -->
@@ -210,7 +206,7 @@
 
                 <!-- Art5 -->
                 <div class="relative text-white">
-                    <img class="block md:w-full" src="assets/art5.jpg" alt="Art5 Photo">
+                    <img class="block" src="assets/art5.jpg" alt="Art5 Photo">
                     <div id="overlay"
                         class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <!--             transition: transform 0.25s; -->
@@ -223,7 +219,7 @@
 
                 <!-- Art6 -->
                 <div class="relative text-white">
-                    <img class="block md:w-full" src="assets/art6.jpg" alt="Art6 Photo">
+                    <img class="block" src="assets/art6.jpg" alt="Art6 Photo">
                     <div id="overlay"
                         class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <!--             transition: transform 0.25s; -->
@@ -236,7 +232,7 @@
 
                 <!-- Art7 -->
                 <div class="relative text-white">
-                    <img class="block md:w-full" src="assets/art7.png" alt="Art7 Photo">
+                    <img class="block" src="assets/art7.png" alt="Art7 Photo">
                     <div id="overlay"
                         class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <!--             transition: transform 0.25s; -->
@@ -249,7 +245,7 @@
 
                 <!-- Art8 -->
                 <div class="relative text-white">
-                    <img class="block md:w-full" src="assets/art8.jpg" alt="Art8 Photo">
+                    <img class="block" src="assets/art8.jpg" alt="Art8 Photo">
                     <div id="overlay"
                         class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <!--             transition: transform 0.25s; -->
@@ -262,7 +258,7 @@
 
                 <!-- Art9 -->
                 <div class="relative text-white">
-                    <img class="block md:w-full" src="assets/art9.png" alt="Art9 Photo">
+                    <img class="block" src="assets/art9.png" alt="Art9 Photo">
                     <div id="overlay"
                         class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <!--             transition: transform 0.25s; -->
@@ -275,7 +271,7 @@
 
                 <!-- Art10 -->
                 <div class="relative text-white">
-                    <img class="block md:w-full" src="assets/art10.png" alt="Art10 Photo">
+                    <img class="block" src="assets/art10.png" alt="Art10 Photo">
                     <div id="overlay"
                         class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <!--             transition: transform 0.25s; -->
@@ -288,7 +284,7 @@
 
                 <!-- Art11 -->
                 <div class="relative text-white">
-                    <img class="block md:w-full" src="assets/art11.png" alt="Art11 Photo">
+                    <img class="block" src="assets/art11.png" alt="Art11 Photo">
                     <div id="overlay"
                         class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <!--             transition: transform 0.25s; -->
@@ -301,7 +297,7 @@
 
                 <!-- Art12 -->
                 <div class="relative text-white">
-                    <img class="block md:w-full" src="assets/art12.png" alt="Art12 Photo">
+                    <img class="block" src="assets/art12.png" alt="Art12 Photo">
                     <div id="overlay"
                         class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center text-center opacity-0 hover:opacity-100 transition-opacity">
                         <!--             transition: transform 0.25s; -->
