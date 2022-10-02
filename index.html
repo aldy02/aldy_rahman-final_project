@@ -24,14 +24,14 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="bg-[#FAF2EF] fixed w-full flex justify-between 2xl:h-16 2xl:items-center z-10">
-        <div class="ml-10 flex items-center 2xl:ml-20">
-            <h1 class="font-bold text-lg sm:text-xl"><a href="#">Aldy Rahman</a></h1>
+    <nav class="bg-[#FAF2EF] fixed w-full flex justify-between lg:h-16 lg:items-center z-10 shadow">
+        <div class="ml-10 flex items-center lg:ml-16">
+            <h1 class="font-bold text-lg sm:text-xl xl:text-2xl"><a href="#">Aldy Rahman</a></h1>
         </div>
 
         <div>
             <ul
-                class="hidden 2xl:flex 2xl:flex-row 2xl:font-medium 2xl:text-lg 2xl:justify-center 2xl:items-center 2xl:mr-10">
+                class="hidden lg:flex lg:flex-row lg:font-medium lg:text-base xl:text-lg lg:justify-center lg:items-center lg:mr-10">
                 <li class="mx-6"><a href="#about">About</a></li>
                 <li class="mx-6"><a href="#interest">Interest</a></li>
                 <li class="mx-6"><a href="#portfolio">Portfolio</a></li>
@@ -41,7 +41,7 @@
         </div>
 
 
-        <div class="h-5 flex flex-col justify-between relative mr-8 my-4 sm:mr-10 2xl:hidden">
+        <div class="h-5 flex flex-col justify-between relative mr-8 my-4 sm:mr-10 lg:hidden">
             <span class="w-7 h-1 block bg-black rounded-xl"></span>
             <span class="w-7 h-1 block bg-black rounded-xl"></span>
             <span class="w-7 h-1 block bg-black rounded-xl"></span>
@@ -51,19 +51,40 @@
     <!-- Header -->
     <header id="home" class="h-[78%] sm:h-full">
         <div id="home-container" class="text-black h-full flex flex-col items-center justify-center text-center">
-            <h1 class="text-[28px] font-bold sm:text-[38px] 2xl:text-7xl 2xl:pb-6">Hello, I am Aldy</h1>
-            <p class="text-xs mx-8 sm:text-base sm:mx-[140px] sm:mt-2 lg:mx-44 2xl:mx-96 2xl:text-xl">Graphic Designer | Frontend
+            <h1 class="text-[28px] font-bold sm:text-[38px] md:text-5xl lg:text-6xl xl:text-7xl xl:pb-2">Hello, I am
+                Aldy</h1>
+            <p
+                class="text-xs mx-8 sm:text-base md:text-lg md:mx-[200px] sm:mx-[140px] sm:mt-2 md:mt-4 lg:mt-5 xl:text-xl">
+                Graphic Designer | Frontend
                 Engineer | Professional Dreamer</p>
+        </div>
+
+        <div class="hidden sm:flex sm:flex-col sm:left-5 sm:bottom-5 sm:fixed sm:z-10">
+            <a href="https://www.instagram.com/aldyrahman02_/" target="_blank">
+                <img class="w-[26px] mb-0" src="assets/instagram.png" alt="Instagram Icon">
+            </a>
+            <a href="https://github.com/aldy02" target="_blank">
+                <img class="w-[26px] my-[7px]" src="assets/github.png" alt="Github Icon">
+            </a>
+            <a href="https://id.pinterest.com/aldyrahman02/" target="_blank">
+                <img class="w-[26px] my-[7px]" src="assets/pinterest.png" alt="Pinterest Icon">
+            </a>
+            <a href="https://www.linkedin.com/in/aldy-rahman-4140a1246/" target="_blank">
+                <img class="w-[26px] mt-0" src="assets/linkedin.png" alt="LinkedIn Icon">
+            </a>
         </div>
     </header>
 
     <!-- Motto -->
     <section id="begin">
-        <div class="bg-[#FAF2EF] h-1/2 sm:h-2/3 text flex flex-col items-center justify-center text-center py-40">
-            <h1 class="text-lg font-bold italic text-[#172B75] sm:text-3xl 2xl:text-3xl">"You Can If You Think You Can!"
+        <div
+            class="bg-[#FAF2EF] h-1/2 sm:h-2/3 lg:h-[75%] xl:h-full text flex flex-col items-center justify-center text-center py-40">
+            <h1 class="text-lg font-bold italic text-[#172B75] sm:text-2xl md:text-3xl xl:text-4xl">"You Can If You
+                Think You Can!"
             </h1>
-            <hr class="bg-[#B51C8D] w-10 my-6 py-[1px] sm:my-7">
-            <p class="text-xs mx-8 sm:text-base sm:mx-24 lg:mx-44 2xl:mx-96 2xl:text-lg">As an Enthusiast Graphic
+            <hr class="bg-[#B51C8D] w-10 my-6 xl:my-10 py-[1px] sm:my-7">
+            <p class="text-xs mx-8 sm:text-base sm:mx-24 md:mx-28 lg:mx-44 xl:mx-[370px] xl:text-xl 2xl:mx-96">As an
+                Enthusiast Graphic
                 Designer, I have a principle of living in life. This
                 principle makes me feel
                 confident and inspires me to always working on making something meaningful and beautiful through drawing
@@ -74,53 +95,65 @@
 
     <!-- About -->
     <section id="about">
-        <div class="bg-[#E35205] grid grid-cols-1 text-white">
-            <div class="w-full flex justify-center">
-                <img class="w-[85%] sm:w-[80%] bg-white border-0 p-2 mt-10 sm:mt-[50px]" src="assets/profile.png" alt="Profile Photo">
+        <div class="bg-[#E35205] grid grid-cols-1 lg:grid-cols-2 text-white xl:relative xl:h-[80%] 2xl:h-[75%]">
+            <div class="w-full flex justify-center lg:hidden">
+                <img class="w-[85%] sm:w-[80%] bg-white border-0 p-2 mt-10 sm:mt-[50px]" src="assets/profile.png"
+                    alt="Profile Photo">
             </div>
-            <div class="ml-[7.5%] mr-10 sm:mx-[10%]">
-                <h1 class="font-bold text-xl mt-10 sm:text-[34px] sm:mb-4">Hi, I am</h1>
-                <h1 class="font-bold text-xl mb-6 sm:text-[34px] sm:mb-10">Aldy Rahman!</h1>
-                <p class="text-xs sm:text-base">It’s nice to meet you! I know it can be a little daunting to invest in someone you
+            <div
+                class="ml-[7.5%] lg:mx-14 xl:mx-24 2xl:ml-48 2xl:pr-24 2xl:w-full lg:mr-16 mr-10 sm:mx-[10%] lg:flex lg:flex-col lg:justify-center">
+                <h1 class="font-bold text-xl mt-10 sm:text-[34px] sm:mb-4 2xl:text-[42px] 2xl:mb-8 md:mb-5">HI, I AM
+                </h1>
+                <h1 class="font-bold text-xl mb-6 sm:text-[34px] sm:mb-10 2xl:text-[42px] 2xl:mb-14">ALDY RAHMAN!</h1>
+                <p class="text-xs sm:text-base md:text-lg lg:text-base">It’s nice to meet you! I know it can be a little
+                    daunting to talk with someone you
                     don’t know,
                     especially when it comes to something as important as your information. So, I thought you might want
                     to know a little bit about me.</p>
                 <br>
-                <p class="text-xs mb-14 sm:mb-14y sm:text-base">My name is Aldy and I’m a Computer Science Student at Lambung Mangkurat
+                <p class="text-xs mb-14 sm:mb-14y sm:text-base md:text-lg lg:text-base">My name is Aldy and I’m a
+                    Computer Science Student at Lambung Mangkurat
                     University who are
                     enthusiastic in Graphic Design. I work meticulously and always seek to improve myself. I have a good
                     sense of teamwork and enjoy meeting new people.</p>
+            </div>
+            <div class="hidden lg:h-full xl:absolute xl:right-0 lg:flex lg:justify-center">
+                <img src="assets/profile.png" alt="Profile Photo">
             </div>
         </div>
     </section>
 
     <!-- Interest -->
     <section id="interest">
-        <div class="bg-[#FAF2EF] pb-20 sm:pb-[100px]">
-            <div class="pt-14 sm:pt-16 w-full flex flex-col items-center justify-center">
+        <div class="bg-[#FAF2EF] pb-20 sm:pb-[100px] 2xl:h-[80%]">
+            <div class="pt-14 sm:pt-16 w-full flex flex-col items-center justify-center 2xl:pt-[138px]">
                 <h1 class="text-[#E35205] font-bold text-xl sm:text-3xl">My Interest</h1>
-                <hr class="bg-black w-6 sm:w-8 mt-2 sm:mt-5 py-[1px]">
+                <hr class="bg-black w-6 sm:w-8 mt-2 sm:mt-5 py-[1px] 2xl:mb-9">
             </div>
-            <div class="gird grid-cols-1">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 md:mx-1 2xl:mx-8">
                 <div class="flex flex-col text-center justify-center items-center">
                     <img class="w-10 sm:w-14 my-3 mt-10 sm:mt-14" src="assets/drawing.png" alt="Drawing Icon">
                     <h2 class="font-medium text-base sm:text-xl">Drawing</h2>
-                    <p class="mx-10 mt-1 text-sm sm:text-lg sm:mx-32">Drawing helps me to express my imagination and feelings.</p>
+                    <p class="mx-10 mt-1 text-sm sm:text-lg sm:mx-32 md:mx-16">Drawing helps me to express my
+                        imagination and feelings.</p>
                 </div>
                 <div class="flex flex-col text-center justify-center items-center">
-                    <img class="w-10 sm:w-14 my-3 mt-10 sm:mt-14" src="assets/reading.png" alt="">
+                    <img class="w-10 sm:w-14 my-3 mt-10 sm:mt-14" src="assets/reading.png" alt="Reading Icon">
                     <h2 class="font-medium text-base sm:text-xl">Reading</h2>
-                    <p class="mx-10 mt-1 text-sm sm:text-lg sm:mx-32">By reading allows me to experience multiple realities.</p>
+                    <p class="mx-10 mt-1 text-sm sm:text-lg sm:mx-32 md:mx-16">By reading allows me to experience
+                        multiple realities.</p>
                 </div>
                 <div class="flex flex-col text-center justify-center items-center">
-                    <img class="w-10 sm:w-14 my-3 mt-10 sm:mt-14" src="assets/music.png" alt="">
+                    <img class="w-10 sm:w-14 my-3 mt-10 sm:mt-14 md:mt-20 xl:mt-14" src="assets/music.png" alt="Music Icon">
                     <h2 class="font-medium text-base sm:text-xl">Listening Music</h2>
-                    <p class="mx-10 mt-1 text-sm sm:text-lg sm:mx-32">Music makes me feel better and boosts my creativity.</p>
+                    <p class="mx-10 mt-1 text-sm sm:text-lg sm:mx-32 md:mx-16">Music makes me feel better and boosts my
+                        creativity.</p>
                 </div>
                 <div class="flex flex-col text-center justify-center items-center">
-                    <img class="w-10 sm:w-14 my-3 mt-10 sm:mt-14" src="assets/game.png" alt="">
+                    <img class="w-10 sm:w-14 my-3 mt-10 sm:mt-14 md:mt-20 xl:mt-14" src="assets/game.png" alt="Game Icon">
                     <h2 class="font-medium text-base sm:text-xl">Playing Games</h2>
-                    <p class="mx-10 mt-1 text-sm sm:text-lg sm:mx-32">Playing games can help me to unwind and reduce my stress.</p>
+                    <p class="mx-10 mt-1 text-sm sm:text-lg sm:mx-32 md:mx-16">Playing games can help me to unwind and
+                        reduce my stress.</p>
                 </div>
             </div>
         </div>
@@ -128,183 +161,202 @@
 
     <!-- Portfolio -->
     <section id="portfolio">
-        <div class="bg-[#172B75] text-white grid grid-cols-1">
-            <div class="w-full flex justify-center">
-                <img class="w-[88%] my-10 sm:mt-14" src="assets/current-project.png" alt="">
+        <div class="bg-[#172B75] text-white grid grid-cols-1 lg:grid-cols-2 xl:h-[80%] xl:relative">
+            <div class="w-full flex justify-center lg:hidden">
+                <img class="w-[88%] my-10 sm:mt-14" src="assets/current-project.png" alt="Current Project Picture">
             </div>
-            <div class="mx-[7%] pb-14">
-                <h2 class="font-bold text-xs text-[#E49D74] mb-3 sm:text-base">CURRENT PROJECT</h2>
-                <h1 class="font-bold text-2xl sm:text-4xl">Vector Art</h1>
-                <hr class="bg-[#D3EAEF] w-6 my-5 py-[1px]">
-                <p class="text-xs pb-6 sm:text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto numquam
-                    voluptatem reprehenderit
-                    excepturi consequuntur ad velit, aspernatur non ipsam eaque vero earum ab aut nisi dolorum
-                    cupiditate
-                    enim mollitia nihil.</p>
-                <a class="font-bold text-xs sm:text-base text-[#E49D74]" href="#portfolio2">Next</a>
+            <div
+                class="mx-[7%] mr-[7.5%] lg:ml-14 lg:mr-10 xl:mx-24 2xl:ml-48 lg:pr-10 pb-14 lg:pb-0 lg:flex lg:flex-col lg:justify-center">
+                <h2 class="font-bold text-xs text-[#E49D74] mb-3 lg:mb-[30px] sm:text-base 2xl:text-lg">CURRENT PROJECT
+                </h2>
+                <h1 class="font-bold text-2xl sm:text-4xl md:text-[40px] 2xl:text-[44px]">Vector Art</h1>
+                <hr class="bg-[#D3EAEF] w-6 lg:w-12 my-5 lg:my-5 py-[1px]">
+                <p class="text-xs pb-6 lg:pb-7 sm:text-base md:text-lg lg:text-base">This is the project that I am
+                    currently working on and it's still 70% in progress. Actually, it's not a fun mental place to be in,
+                    there's just so much confusion going on. So, I started to make a realistic vector girl but on the
+                    process of experimentation I came up with some interesting outcomes. These outcomes are majorly
+                    based on the color palette & line weight, but they change the mood completely. It's really
+                    interesting how small changes can make such a massive difference in art style.</p>
+                <a class="font-bold text-xs sm:text-base 2xl:text-lg text-[#E49D74]" href="#portfolio2">Next</a>
+            </div>
+            <div class="hidden lg:h-full xl:absolute xl:right-0 lg:flex lg:justify-center">
+                <img src="assets/current-project.png" alt="Current Project Picture">
             </div>
         </div>
     </section>
 
     <!-- Portfolio2 -->
     <section id="portfolio2">
-        <div class="bg-[#FAF2EF] pb-20">
+        <div class="bg-[#FAF2EF] pb-20 xl:pt-16">
             <div class="flex flex-col items-center pt-[74px] sm:pt-[116px] mb-8 sm:mb-[58px]">
-                <h1 class="text-[#E35205] font-bold text-xl sm:text-3xl">Portfolio Project</h1>
-                <hr class="bg-black w-6 sm:w-8 mt-2 sm:mt-5 py-[1px]">
+                <h1 class="text-black font-bold text-xl sm:text-3xl">Portfolio Project</h1>
+                <hr class="bg-[#E35205] w-6 sm:w-8 mt-2 sm:mt-5 py-[1px]">
             </div>
-            <div class="grid grid-cols-1 gap-3 sm:gap-5 mx-3 sm:mx-5">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 xl:gap-6 xl:mx-6 sm:gap-5 mx-3 sm:mx-5">
                 <!-- Art1 -->
                 <div class="relative text-white">
-                    <img class="block" src="assets/art1.jpg" alt="Art1 Photo">
-                    <div id="overlay" class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
+                    <img class="block md:w-full" src="assets/art1.jpg" alt="Art1 Photo">
+                    <div id="overlay"
+                        class="bg-[#E35205]/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <div class="translate-y-5 transition-transform duration-[250ms]">
-                            <h1>LOGO</h1>
+                            <h1 class="md:font-bold xl:text-2xl md:text-lg">LOGO</h1>
                         </div>
-                        <p class="translate-y-5 transition-transform duration-[250ms]">Firefox</p>
+                        <p
+                            class="translate-y-5 transition-transform duration-[250ms] md:font-normal xl:text-lg md:text-base">
+                            Firefox</p>
                     </div>
                 </div>
 
                 <!-- Art2 -->
                 <div class="relative text-white">
-                    <img class="block" src="assets/art2.jpg" alt="Art2 Photo">
+                    <img class="block md:w-full" src="assets/art2.jpg" alt="Art2 Photo">
                     <div id="overlay"
-                        class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                        <!--             transition: transform 0.25s; -->
+                        class="bg-[#172B75]/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <div class="translate-y-5 transition-transform duration-[250ms]">
-                            <h1>ILLUSTRATION</h1>
+                            <h1 class="md:font-bold xl:text-2xl md:text-lg">ILLUSTRATION</h1>
                         </div>
-                        <p class="translate-y-5 transition-transform duration-[250ms]">Till Death Do Us Part</p>
+                        <p class="translate-y-5 transition-transform duration-[250ms] xl:text-lg md:text-base">Till
+                            Death Do Us Part</p>
                     </div>
                 </div>
 
                 <!-- Art3 -->
                 <div class="relative text-white">
-                    <img class="block" src="assets/art3.jpg" alt="Art3 Photo">
+                    <img class="block md:w-full" src="assets/art3.jpg" alt="Art3 Photo">
                     <div id="overlay"
-                        class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                        <!--             transition: transform 0.25s; -->
+                        class="bg-red-600/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <div class="translate-y-5 transition-transform duration-[250ms]">
-                            <h1>ILLUSTRATION</h1>
+                            <h1 class="md:font-bold xl:text-2xl md:text-lg">ILLUSTRATION</h1>
                         </div>
-                        <p class="translate-y-5 transition-transform duration-[250ms]">Getting Stronger</p>
+                        <p
+                            class="translate-y-5 transition-transform duration-[250ms] md:font-normal md:text-base xl:text-lg">
+                            Getting Stronger</p>
                     </div>
                 </div>
 
                 <!-- Art4 -->
                 <div class="relative text-white">
-                    <img class="block" src="assets/art4.png" alt="Art4 Photo">
+                    <img class="block md:w-full" src="assets/art4.png" alt="Art4 Photo">
                     <div id="overlay"
-                        class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                        <!--             transition: transform 0.25s; -->
+                        class="bg-[#172B75]/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <div class="translate-y-5 transition-transform duration-[250ms]">
-                            <h1>LOGOTYPES</h1>
+                            <h1 class="md:font-bold md:text-lg xl:text-2xl">LOGOTYPES</h1>
                         </div>
-                        <p class="translate-y-5 transition-transform duration-[250ms]">Pekan Minat Bakat Ilkom 2021</p>
+                        <p
+                            class="translate-y-5 transition-transform duration-[250ms] md:font-normal md:text-base xl:text-lg">
+                            Pekan Minat Bakat Ilkom 2021</p>
                     </div>
                 </div>
 
                 <!-- Art5 -->
                 <div class="relative text-white">
-                    <img class="block" src="assets/art5.jpg" alt="Art5 Photo">
+                    <img class="block md:w-full" src="assets/art5.jpg" alt="Art5 Photo">
                     <div id="overlay"
-                        class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                        <!--             transition: transform 0.25s; -->
+                        class="bg-red-600/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <div class="translate-y-5 transition-transform duration-[250ms]">
-                            <h1>MONOGRAM</h1>
+                            <h1 class="md:font-bold md:text-lg xl:text-2xl">MONOGRAM</h1>
                         </div>
-                        <p class="translate-y-5 transition-transform duration-[250ms]">Red Velvet Redesign</p>
+                        <p
+                            class="translate-y-5 transition-transform duration-[250ms] md:font-normal md:text-base xl:text-lg">
+                            Red Velvet Redesign</p>
                     </div>
                 </div>
 
                 <!-- Art6 -->
                 <div class="relative text-white">
-                    <img class="block" src="assets/art6.jpg" alt="Art6 Photo">
+                    <img class="block md:w-full" src="assets/art6.jpg" alt="Art6 Photo">
                     <div id="overlay"
-                        class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                        <!--             transition: transform 0.25s; -->
+                        class="bg-[#172B75]/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <div class="translate-y-5 transition-transform duration-[250ms]">
-                            <h1>DIGITAL PAINTING</h1>
+                            <h1 class="md:font-bold md:text-lg xl:text-2xl">DIGITAL PAINTING</h1>
                         </div>
-                        <p class="translate-y-5 transition-transform duration-[250ms]">Orchid</p>
+                        <p
+                            class="translate-y-5 transition-transform duration-[250ms] md:font-normal md:text-base xl:text-lg">
+                            Orchid</p>
                     </div>
                 </div>
 
                 <!-- Art7 -->
                 <div class="relative text-white">
-                    <img class="block" src="assets/art7.png" alt="Art7 Photo">
+                    <img class="block md:w-full" src="assets/art7.png" alt="Art7 Photo">
                     <div id="overlay"
-                        class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                        <!--             transition: transform 0.25s; -->
+                        class="bg-[#E35205]/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <div class="translate-y-5 transition-transform duration-[250ms]">
-                            <h1>ILLUSTRATION</h1>
+                            <h1 class="md:font-bold md:text-lg xl:text-2xl">ILLUSTRATION</h1>
                         </div>
-                        <p class="translate-y-5 transition-transform duration-[250ms]">Black Butterfly</p>
+                        <p
+                            class="translate-y-5 transition-transform duration-[250ms] md:font-normal md:text-base xl:text-lg">
+                            Black Butterfly</p>
                     </div>
                 </div>
 
                 <!-- Art8 -->
                 <div class="relative text-white">
-                    <img class="block" src="assets/art8.jpg" alt="Art8 Photo">
+                    <img class="block md:w-full" src="assets/art8.jpg" alt="Art8 Photo">
                     <div id="overlay"
-                        class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                        <!--             transition: transform 0.25s; -->
+                        class="bg-[#172B75]/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <div class="translate-y-5 transition-transform duration-[250ms]">
-                            <h1>WORDMARK</h1>
+                            <h1 class="md:font-bold md:text-lg xl:text-2xl">WORDMARK</h1>
                         </div>
-                        <p class="translate-y-5 transition-transform duration-[250ms]">Koala</p>
+                        <p
+                            class="translate-y-5 transition-transform duration-[250ms] md:font-normal md:text-base xl:text-lg">
+                            Koala</p>
                     </div>
                 </div>
 
                 <!-- Art9 -->
                 <div class="relative text-white">
-                    <img class="block" src="assets/art9.png" alt="Art9 Photo">
+                    <img class="block md:w-full" src="assets/art9.png" alt="Art9 Photo">
                     <div id="overlay"
-                        class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                        <!--             transition: transform 0.25s; -->
+                        class="bg-[#D8972E]/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <div class="translate-y-5 transition-transform duration-[250ms]">
-                            <h1>PRINT DESIGN</h1>
+                            <h1 class="md:font-bold md:text-lg xl:text-2xl">PRINT DESIGN</h1>
                         </div>
-                        <p class="translate-y-5 transition-transform duration-[250ms]">Sunflower</p>
+                        <p
+                            class="translate-y-5 transition-transform duration-[250ms] md:font-normal md:text-base xl:text-lg">
+                            Sunflower</p>
                     </div>
                 </div>
 
                 <!-- Art10 -->
                 <div class="relative text-white">
-                    <img class="block" src="assets/art10.png" alt="Art10 Photo">
+                    <img class="block md:w-full" src="assets/art10.png" alt="Art10 Photo">
                     <div id="overlay"
-                        class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                        <!--             transition: transform 0.25s; -->
+                        class="bg-[#D8972E]/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <div class="translate-y-5 transition-transform duration-[250ms]">
-                            <h1>MONOGRAM</h1>
+                            <h1 class="md:font-bold md:text-lg 2xl:text-xl">MONOGRAM</h1>
                         </div>
-                        <p class="translate-y-5 transition-transform duration-[250ms]">Personal SL Logo</p>
+                        <p
+                            class="translate-y-5 transition-transform duration-[250ms] md:font-normal md:text-base xl:text-lg">
+                            Personal SL Logo</p>
                     </div>
                 </div>
 
                 <!-- Art11 -->
                 <div class="relative text-white">
-                    <img class="block" src="assets/art11.png" alt="Art11 Photo">
+                    <img class="block md:w-full" src="assets/art11.png" alt="Art11 Photo">
                     <div id="overlay"
-                        class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                        <!--             transition: transform 0.25s; -->
+                        class="bg-[#E35205]/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                         <div class="translate-y-5 transition-transform duration-[250ms]">
-                            <h1>LOGOTYPES</h1>
+                            <h1 class="md:font-bold md:text-lg xl:text-2xl">LOGOTYPES</h1>
                         </div>
-                        <p class="translate-y-5 transition-transform duration-[250ms]">Makanan Riang.id</p>
+                        <p
+                            class="translate-y-5 transition-transform duration-[250ms] md:font-normal md:text-base xl:text-lg">
+                            Makanan Riang.id</p>
                     </div>
                 </div>
 
                 <!-- Art12 -->
                 <div class="relative text-white">
-                    <img class="block" src="assets/art12.png" alt="Art12 Photo">
+                    <img class="block md:w-full" src="assets/art12.png" alt="Art12 Photo">
                     <div id="overlay"
-                        class="bg-black/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center text-center opacity-0 hover:opacity-100 transition-opacity">
-                        <!--             transition: transform 0.25s; -->
+                        class="bg-[#172B75]/[0.6] absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center text-center opacity-0 hover:opacity-100 transition-opacity">
                         <div class="translate-y-5 transition-transform duration-[250ms]">
-                            <h1>Monogram</h1>
+                            <h1 class="md:font-bold md:text-lg xl:text-2xl">Monogram</h1>
                         </div>
-                        <p class="translate-y-5 transition-transform duration-[250ms]">Beauty Business In Tanah Grogot</p>
+                        <p
+                            class="translate-y-5 transition-transform duration-[250ms] md:font-normal md:text-base xl:text-lg">
+                            Beauty Business In Tanah Grogot</p>
                     </div>
                 </div>
 
@@ -313,49 +365,90 @@
     </section>
 
     <!-- Education -->
-    <section id="educaion" class="bg-[#E35205] text-white">
-        <div class="flex flex-col items-center pt-16 mb-8 sm:mb-12">
-            <h1 class="text-white font-bold text-xl sm:text-2xl">Education Background</h1>
-            <hr class="bg-white border-none w-6 sm:w-10 mt-2 py-[1px]">
+    <section id="education" class=" text-black bg-[#FAF2EF]">
+        <div class="w-full flex flex-col items-center pb-10 sm:pb-14 sm:pt-20 pt-3">
+            <h1 class="text-black font-bold text-xl sm:text-[28px]">My Education</h1>
+            <hr class="bg-[#E35205] w-6 sm:w-8 mt-2 sm:mt-5 py-[1px]">
         </div>
-        <div class="pb-10 grid grid-cols-1 gap-2">
-            <div class="flex flex-col justify-center items-center text-center pb-7">
-                <h2 class="mt-4 text-base sm:text-xl font-semibold">Vacational High School</h2>
-                <h3 class="text-base sm:text-lg font-normal">2017 - 2020</h3>
-                <p class="mx-10 mt-2 text-xs sm:text-base">SMKN 1 Tanah Grogot</p>
+        <div class="grid lg:grid-cols-3 grid-cols-1 mx-0 sm:mx-[20%] lg:mx-8 xl:mx-28 2xl:mx-32">
+            <!-- SMK -->
+            <div class="w-full flex items-start justify-center mb-10 lg:mb-0">
+                <div
+                    class="bg-blue-[#FAF2EF] border-[1px] border-slate-700 flex flex-col w-[85%] lg:w-[80%] sm:w-3/4 xl:w-3/4 h-full">
+                    <img class="md:w-full" src="assets/smk.jpg" alt="Vacational School Photo">
+                    <div class="sm:mx-7 mx-5 mt-3">
+                        <h1 class="font-medium sm:text-lg text-base">SMKN 1 Tanah Grogot</h1>
+                        <p class="sm:text-sm text-xs">2017 - 2020</p>
+                    </div>
+                    <div
+                        class="flex justify-center items-center sm:mx-7 mx-5 my-6 mt-8 bg-[#F9B235] hover:bg-[#eea629]">
+                        <a class="font-bold sm:text-base text-sm text-white ink py-2"
+                            href="https://www.smkn1tgt.sch.id/" target="_blank">VISIT</a>
+                    </div>
+                </div>
             </div>
-            <div class="flex flex-col justify-center items-center text-center pb-7">
-                <h2 class="mt-4 text-base sm:text-xl font-semibold">Junior High School</h2>
-                <h3 class="text-base sm:text-lg font-normal">2014 - 2017</h3>
-                <p class="mx-10 mt-2 text-xs sm:text-base">SMPN 1 Tanah Grogot</p>
+
+            <!-- SMP -->
+            <div class="w-full flex items-start justify-center mb-10 lg:mb-0">
+                <div
+                    class="bg-blue-[#FAF2EF] border-[1px] border-slate-700 flex flex-col  w-[85%] lg:w-[80%] sm:w-3/4 xl:w-3/4 h-full">
+                    <img class="md:w-full" src="assets/smp.jpg" alt="Junior High School Photo">
+                    <div class="sm:mx-7 mx-5 mt-3">
+                        <h1 class="font-medium sm:text-lg text-base">SMPN 1 Tanah Grogot</h1>
+                        <p class="sm:text-sm text-xs">2014 - 2017</p>
+                    </div>
+                    <div
+                        class="flex justify-center items-center sm:mx-7 mx-5 my-6 mt-8 bg-[#F9B235] hover:bg-[#eea629]">
+                        <a class="font-bold sm:text-base text-sm text-white ink py-2" href="https://smpn1tgt.sch.id/"
+                            target="_blank">VISIT</a>
+                    </div>
+                </div>
             </div>
-            <div class="flex flex-col justify-center items-center text-center pb-7">
-                <h2 class="mt-4 text-base sm:text-xl font-semibold">Elementary School</h2>
-                <h3 class="text-base sm:text-lg font-normal">2008 - 2014</h3>
-                <p class="mx-10 mt-2 text-xs sm:text-base">SDN 002 Tanah Grogot</p>
+
+
+            <!-- SD -->
+            <div class="w-full flex items-start justify-center mb-10 lg:mb-0">
+                <div
+                    class="bg-blue-[#FAF2EF] border-[1px] border-slate-700 flex flex-col w-[85%] lg:w-[80%] sm:w-3/4 xl:w-3/4 h-full">
+                    <img class="md:w-full" src="assets/sd.jpg" alt="Elementary School Photo">
+                    <div class="sm:mx-7 mx-5 mt-3">
+                        <h1 class="font-medium sm:text-lg text-base">SDN 002 Tanah Grogot</h1>
+                        <p class="sm:text-sm text-xs">2008 - 2014</p>
+                    </div>
+                    <div
+                        class="flex justify-center items-center sm:mx-7 mx-5 my-6 mt-8 bg-[#F9B235] hover:bg-[#eea629]">
+                        <a class="font-bold sm:text-base text-sm text-white ink py-2"
+                            href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/6081037E-30F5-E011-8CBD-C178BBB27419"
+                            target="_blank">VISIT</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Contact -->
     <section id="contact" class="bg-[#FAF2EF]">
-        <div class="flex flex-col items-center justify-center text-center pt-14">
+        <div class="flex flex-col items-center justify-center text-center pt-14 lg:pt-36">
             <h1 class="text-xl sm:text-3xl font-bold mt-6 text-[#172B75]">Let's Get In Touch!</h1>
             <hr class="bg-[#B51C8D] w-6 border-none my-4 py-[1px]">
-            <p class="mx-14 text-xs sm:text-base sm:mx-[100px] lg:mx-36 2xl:mx-96">Let me know if you need some help on your
+            <p class="mx-14 text-xs sm:text-base md:text-lg sm:mx-[100px] md:mx-32 lg:mx-[25%] 2xl:mx-[35%]">Let me know
+                if you need some help on your
                 next project or maybe you have any
                 suggestions for me to
                 improve myseff for the better!</p>
         </div>
-        <div class="flex flex-col justify-center items-center mt-7 pb-20 2xl:pb-36">
-            <input class="border-[1px] border-[#8f8f8f] rounded-sm px-2 py-1 my-2 w-3/4 sm:w-2/3 md:py-4 md:px-4 2xl:w-1/2" type="text"
-                placeholder="Name here">
-            <input class="border-[1px] border-[#8f8f8f] rounded-sm px-2 py-1 my-2 w-3/4 sm:w-2/3 md:py-4 md:px-4 2xl:w-1/2" type="text"
-                placeholder="Email Address">
-            <textarea class="border-[1px] border-[#8f8f8f] rounded-sm px-2 py-1 my-2 w-3/4 sm:w-2/3 h-32 md:py-4 md:px-4 2xl:w-1/2"
+        <div class="flex flex-col justify-center items-center mt-7 pb-20 lg:pb-28 2xl:pb-36">
+            <input
+                class="border-[1px] border-black 2xl:w-[30%] 2xl:my-3 bg-[#FAF2EF] rounded-sm md:rounded-[4px] px-2 py-1 my-2 w-3/4 sm:w-2/3 lg:w-1/2 md:py-4 md:px-4"
+                type="text" placeholder="Name here">
+            <input
+                class="border-[1px] border-black 2xl:w-[30%] 2xl:my-3 bg-[#FAF2EF] rounded-sm md:rounded-[4px] px-2 py-1 my-2 w-3/4 sm:w-2/3 lg:w-1/2 md:py-4 md:px-4"
+                type="text" placeholder="Email Address">
+            <textarea
+                class="border-[1px] border-black 2xl:w-[30%] 2xl:my-3 bg-[#FAF2EF] rounded-sm md:rounded-[4px] px-2 py-1 my-2 w-3/4 sm:w-2/3 lg:w-1/2 h-32 md:py-4 md:px-4"
                 placeholder="Message"></textarea>
             <input
-                class="border-none rounded-full bg-[#E35205] hover:bg-[#CC470D] text-white font-semibold px-2 py-1 my-2 w-3/4 sm:w-2/3 sm:py-2 sm:text-lg md:my-4 2xl:w-1/2"
+                class="border-none rounded-full bg-[#E35205] 2xl:w-[30%] 2xl:my-3 hover:bg-[#CC470D] text-white font-semibold px-2 py-1 my-2 w-3/4 lg:w-1/2 sm:w-2/3 sm:py-2 sm:text-lg md:my-4"
                 type="submit" value="SUBMIT">
         </div>
     </section>
